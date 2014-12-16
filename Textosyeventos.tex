@@ -11,12 +11,13 @@
 \usepackage{fancyhdr}
 \usepackage[vmargin=1.5cm,top=1.7cm,bottom=1.5cm,left=1.5cm,right=1.5cm]{geometry}
 \usepackage{parskip}
+\usepackage{listings}
 \usepackage{arev}
 \usepackage{ascii}
 \usepackage{cmbright}
 % \usepackage[default]{comfortaa}
 \setlength{\parindent}{18pt}
-
+\renewcommand{\ttdefault}{cmtt}
 % \doublespacing
 % \singlespacing
 % \setstretch{baselinestretch}
@@ -29,12 +30,12 @@
 
 \newcommand{\titulo}{Textos y eventos}
 \newcommand{\nombre}{Félix J. Marcelo Wirnitzer}
-\newcommand{\email}{{\asciifamily<\color{Brown}fjmarcelo@gmail.com\color{Black}>}}
+\newcommand{\email}{{\asciifamily<\color{Blue}fjmarcelo@gmail.com\color{Black}>}}
 
 \pagestyle{fancy}
 \lhead{\includegraphics[width=.07\textwidth]{./ArduinoGranCanaria.png}}
 \chead{}
-\rhead{\footnotesize\titulo}
+\rhead{\footnotesize \textbf {Processing}\\\titulo}
 \lfoot{\footnotesize\nombre\\\email}
 \cfoot{}
 \rfoot{\footnotesize\thepage}
@@ -60,7 +61,7 @@
 A continuación un ejemplo que combina las dos partes de este artículo\dots
 
 
-\mbox{\color{Brown}%
+\mbox{\color{Blue}%
 \vspace{5mm}\hspace{1cm}
 \begin{minipage}{.65\textwidth}%
 \VerbatimInput[fontsize=\scriptsize,frame=lines,label=Ejemplo5: Persiguiendo el texto] 

@@ -16,6 +16,13 @@ src_extensions=.tex .ltx .latex .dtx .ins
 MakeIndex=
 QuickBuild=
 
+[document-settings,item:Textosyeventos.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
 [document-settings,item:eventos.tex]
 Bookmarks=
 Encoding=UTF-8
@@ -23,25 +30,42 @@ Highlighting=LaTeX
 Indentation Mode=normal
 Mode=LaTeX
 
-[item:eventos.tex]
+[document-settings,item:textos.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[item:Textosyeventos.tex]
 archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=20
+mode=LaTeX
+open=true
+order=2
+
+[item:eventos.tex]
+archive=true
+column=59
+encoding=UTF-8
+highlight=LaTeX
+line=13
 mode=LaTeX
 open=true
 order=0
 
 [item:textos.tex]
 archive=true
-column=164954912
-encoding=
-highlight=
-line=0
-mode=
-open=false
-order=-1
+column=0
+encoding=UTF-8
+highlight=LaTeX
+line=23
+mode=LaTeX
+open=true
+order=1
 
 [item:textosyeventos.kilepr]
 archive=true
@@ -53,8 +77,20 @@ mode=
 open=false
 order=-1
 
-[view-settings,view=0,item:eventos.tex]
+[view-settings,view=0,item:Textosyeventos.tex]
 CursorColumn=0
-CursorLine=0
+CursorLine=20
 JumpList=
-ViMarks=
+ViMarks=.,13,0,[,13,0,],13,20
+
+[view-settings,view=0,item:eventos.tex]
+CursorColumn=59
+CursorLine=13
+JumpList=
+ViMarks=.,13,58,[,13,58,],13,58
+
+[view-settings,view=0,item:textos.tex]
+CursorColumn=0
+CursorLine=23
+JumpList=
+ViMarks=.,33,15,[,34,0,],-1,-1
