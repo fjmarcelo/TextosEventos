@@ -1,0 +1,33 @@
+\section{Eventos de teclado y ratón}
+Hasta el momento hemos codificado programas solamente secuenciales, es decir, ejecutando línea a línea de principio a 
+fin, si bien nos ha servido para los ejemplos es hora de dar un paso mas allá. En esta ocasión veremos lo que son los 
+eventos del sistema y como ejecutarlos.
+
+Un evento es una interrupción en el programa principal, ocurre cuando se tiene un cambio externo como por ejemplo 
+cuando se presiona una tecla o un clic del mouse. Cuando uno de estos eventos sucede se llama a una función, dentro de 
+esta función colocaremos el código a ejecutar.
+
+Las funciones disponibles son las siguientes:
+
+\begin{description}
+        \item [mouseClicked()] Ocurre cuando se presiona y se libera un botón del ratón.
+        \item [mousePressed()] Cuando se presiona un botón del ratón.
+        \item [mouseDragged()] Al arrastrar el ratón con un botón pulsado mantenidamente.
+        \item [mouseReleased()] En el momento de soltar un botón del ratón que estaba presionado.
+        \item [keyPressed()] Cuando se pulsa una tecla.
+        \item [keyReleased()] En el momento de soltar una tecla presionada.
+\end{description}
+
+Para aprovechar al máximo estas funciones se debe hacer uso de las variables del sistema vistas anteriormente, de este 
+modo sabremos exactamente qué tecla o botón generó la interrupción.
+
+Las funciones anteriores son del tipo void y no necesitan parámetros para su funcionamiento, veamos un ejemplo para 
+comprenderlo mejor:
+
+%%%%%%%%%%%%%%%%%%%%%%
+%      Ejemplo 4     %
+%%%%%%%%%%%%%%%%%%%%%%
+\mbox{\color{Brown}\begin{minipage}{.55\textwidth}%
+        \VerbatimInput[fontsize=\scriptsize,frame=lines,label=Ejemplo 4: Pintando círculos y 
+limpiando]{./ejemplo4/ejemplo4.pde}%
+\end{minipage}}\hspace{.1\textwidth}
